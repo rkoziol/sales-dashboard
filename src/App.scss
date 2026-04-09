@@ -1,0 +1,38 @@
+.appWrapper {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial;
+}
+
+.sectionWrapper {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.card {
+  flex: 1;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.searchInput {
+  width: calc(100% - 30px);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  padding: 20px 15px;
+}
+
+.transactionsTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transactionsTable .tableHeader {
+  text-align: left;
+  border-bottom: 2px solid #eee;
+}
